@@ -52,6 +52,9 @@ RUN curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/i
 #
 # install gopls
 RUN go install golang.org/x/tools/gopls@latest
+#
+# install mvdan/gofumpt
+RUN go install mvdan.cc/gofumpt@latest
 # set env
 ENV DEBIAN_FRONTEND=dialog
-LABEL org.opencontainers.image.source https://github.com/kumanoryo/dot-devcontainer-golang-1.19
+LABEL org.opencontainers.image.source https://github.com/kumanoryo/dot-devcontainer-golang-1.20

@@ -32,7 +32,8 @@
                     }
                 },
                 "gopls": {
-                    "usePlaceholders": true
+                    "usePlaceholders": true,
+                    "formatting.gofumpt": true
                 },
                 "go.lintTool": "golangci-lint",
                 "go.lintFlags": [
