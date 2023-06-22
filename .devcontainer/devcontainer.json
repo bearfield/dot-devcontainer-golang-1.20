@@ -42,6 +42,7 @@
                     "--out-format=colored-line-number",
                     "--issues-exit-code=0"
                 ],
+                "go.testTimeout": "1800s",
                 "go.testFlags": ["-v", "-count=1"],
                 "go.testEnvVars": {
                 }
