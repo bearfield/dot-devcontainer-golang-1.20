@@ -1,4 +1,4 @@
-FROM ghcr.io/kumanoryo/debian-fish:bullseye
+FROM ghcr.io/kumanoryo/debian-fish:bookworm
 #
 # set env
 ENV GOLANG_VERSION=1.20.5
