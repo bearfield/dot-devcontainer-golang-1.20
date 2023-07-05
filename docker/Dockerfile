@@ -1,4 +1,4 @@
-FROM ghcr.io/kumanoryo/debian-fish:bookworm
+FROM ghcr.io/bearfield/debian-fish:bookworm
 #
 # set env
 ENV GOLANG_VERSION=1.20.5
@@ -57,4 +57,4 @@ RUN go install golang.org/x/tools/gopls@latest
 RUN go install mvdan.cc/gofumpt@latest
 # set env
 ENV DEBIAN_FRONTEND=dialog
-LABEL org.opencontainers.image.source https://github.com/kumanoryo/dot-devcontainer-golang-1.20
+LABEL org.opencontainers.image.source https://github.com/bearfield/dot-devcontainer-golang-1.20
