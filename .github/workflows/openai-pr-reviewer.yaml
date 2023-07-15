@@ -18,7 +18,7 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      - uses: fluxninja/openai-pr-reviewer@latested
+      - uses: fluxninja/openai-pr-reviewer@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_PR_REVIEWER_OPENAI_API_KEY }} # 環境に応じて変更
